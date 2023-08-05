@@ -1,0 +1,12 @@
+.section__padding {
+  padding: 0 8rem;
+}
+
+.h1__text {
+  color: var(--color-white);
+  text-align: center;
+  font-family: var(--font-nunito);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 110.5%;
+}

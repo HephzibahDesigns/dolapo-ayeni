@@ -1,0 +1,26 @@
+.app__skills {
+  min-height: 100vh;
+  background-color: var(--color-jaguar-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 5rem 0;
+}
+
+.app__skills .h1__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem 0;
+}
+
+.app__skills-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}

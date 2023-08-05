@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+:root {
+  --font-nunito: "Nunito", sans-serif;
+  --font-notoSans: "Noto Sans", sans-serif;
+
+  --nav-bar: linear-gradient(
+    90deg,
+    rgba(255, 220, 96, 1) 0%,
+    rgba(255, 220, 96, 1) 50%,
+    rgba(89, 86, 232, 1) 50%
+  );
+
+  --color-white: #ffffff;
+  --color-jaguar-black: #292930;
+  --color-gray: #555;
+  --color-royal-blue: #5956e8;
+}

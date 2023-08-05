@@ -1,0 +1,72 @@
+.app__skillCard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 380.021px;
+  min-height: 430px;
+  padding: 49px 40px;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid #424245;
+  background: linear-gradient(180deg, #36363e 0%, #292930 100%);
+
+  margin: 0 1.5rem;
+}
+
+.app__skillCard:nth-child(n + 3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1.5rem;
+}
+
+.app__skillCard-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__h1 {
+  color: var(--color-white);
+  text-align: center;
+  font-family: var(--font-nunito);
+  font-size: 25px;
+  width: 400px;
+  font-weight: 600;
+  line-height: 110.5%;
+  padding: 1.5rem 0;
+}
+
+.card__p {
+  color: #d0d0d0;
+  width: 300px;
+  text-align: center;
+  font-family: var(--font-notoSans);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 156.5%;
+}
+
+.app__skillCard-icon-circle {
+  position: relative;
+  width: 153px;
+  height: 153px;
+  border-radius: 50%;
+  background-color: var(--color-jaguar-black);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__skillCard-icon-circle img {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

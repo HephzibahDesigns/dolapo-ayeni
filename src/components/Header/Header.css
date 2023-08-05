@@ -1,0 +1,39 @@
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10rem;
+
+  background: url(../../Assets/Banner\ Image.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app__header-left-h1 {
+  color: var(--color-jaguar-black);
+  font-family: var(--font-nunito);
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 110.5%;
+}
+
+.p__text {
+  color: var(--color-gray);
+  font-family: var(--font-notoSans);
+  font-size: 27px;
+  padding: 1.5rem 0;
+  font-weight: 400;
+  line-height: 156.5%;
+}
+
+.app__header-left-h1 .h1-blue {
+  color: var(--color-royal-blue);
+}
+
+.app__header-right img {
+  width: 370px;
+  height: 370px;
+  border-radius: 3rem;
+}
