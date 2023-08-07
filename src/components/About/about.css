@@ -1,0 +1,39 @@
+.app__about {
+  border-radius: 7px;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(138deg, #e9f7ff 0%, #ffdbd4 51.05%, #fff3ca 100%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-h1 {
+  color: var(--color-jaguar-black);
+  text-align: center;
+  font-family: var(--font-nunito);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 110.5%;
+  padding: 2rem 0;
+}
+
+.about-p {
+  color: var(--color-jaguar-black);
+  font-family: var(--font-nunito);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 180%;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.app__about-details {
+  width: 1200px;
+  height: 716.5px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(146, 146, 146, 0.25);
+}

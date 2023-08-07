@@ -5,7 +5,7 @@
   width: 100%;
   padding: 0 10rem;
 
-  background: url(../../Assets/Banner\ Image.png);
+  background-image: url(../../Assets/Banner\ Image.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,4 +36,24 @@
   width: 370px;
   height: 370px;
   border-radius: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .app__header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app__header-left-h1 {
+    font-size: 60px;
+    line-height: 110.5%;
+    text-align: center;
+  }
+
+  .app__header-right img {
+    width: 370px;
+    height: 370px;
+    padding: 2rem;
+  }
 }

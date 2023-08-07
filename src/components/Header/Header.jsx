@@ -1,6 +1,7 @@
 import React from "react";
 import { Doly } from "../../Assets/export";
-import { Skills, Portfolio } from "../export";
+
+import { Skills, Portfolio } from "../export.js";
 import "./Header.css";
 
 const Header = () => {

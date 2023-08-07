@@ -2,6 +2,7 @@
   padding: 0 8rem;
   position: relative;
   width: 100%;
+  background-color: rgb(255, 252, 247);
 }
 
 .app__nav-con {
@@ -53,4 +54,38 @@
   width: 100%;
   height: 2px;
   background: var(--nav-bar);
+}
+
+.app__nav-mobileMenu {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .app__nav-link-container {
+    display: none;
+  }
+
+  .app__nav-mobileMenu {
+    display: flex;
+  }
+
+  .app__nav-mobileMenu-container {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: rgb(255, 252, 247);
+    width: 270px;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 1);
+  }
+
+  .nav-link {
+    margin-top: 22px;
+  }
+
+  .icons {
+    margin: 1rem 1.5rem;
+  }
 }
